@@ -398,7 +398,7 @@ a:hover {
 }
 
 /* light/dark mode button style */
-.theme-toggle {
+/* .theme-toggle {
   position: fixed;
   top: var(--space-16);
   right: var(--space-16);
@@ -412,7 +412,47 @@ a:hover {
   box-shadow: var(--shadow-sm);
   transition: all var(--duration-normal) var(--ease-standard);
   z-index: 1000;
+} */
+
+
+
+
+
+
+
+.theme-toggle {
+  position: static;   /* 🔥 fixed काढ */
+  padding: var(--space-8);
+  font-size: var(--font-size-lg);
+  border: none;
+  border-radius: var(--radius-full);
+  background: var(--color-btn-bg);
+  color: var(--color-btn-text);
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--duration-normal) var(--ease-standard);
 }
+
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-12);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .theme-toggle:hover {
   transform: scale(1.1);
