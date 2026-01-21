@@ -421,7 +421,7 @@ a:hover {
 
 
 .theme-toggle {
-  position: static;   /* 🔥 fixed काढ */
+  position: static;  
   padding: var(--space-8);
   font-size: var(--font-size-lg);
   border: none;
